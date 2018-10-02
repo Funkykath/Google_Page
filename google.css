@@ -1,18 +1,48 @@
-p
+
 {
+	display: flex;
 	font-family: arial;
 	color: #BBB9B9;
 	border: black;
+	box-sizing: content-box;
+	box-shadow: 1px 1px 1px #202020;
 	text-align: center;
+	width: 500px;
+	height: 20px;
+	text-align: center;
+
 }	
 
-.photo
-{
-	width: 92;
-	height: 272;
-	text-align: center;
-	margin: 30px 30px 30px 30px
+.div-border{
+	border: 1px rgba(130,130,130,0.4) solid;
+	padding: 7px 10px;
+	box-shadow: 1px 1px 0 rgba(130,130,130,0.2);
+
+}
+.rech {
+	display: flex;
+	justify-content: space-between;
+    width: 500px;
+    border-style: none;
+
+
+}
+.rech:focus{
+	 outline: none;
+
 }
 
+section
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+form
+{
+	padding-top: 20px;
+	text-align: center;
+
+}
 
